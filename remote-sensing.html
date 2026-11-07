@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Remote Sensing | Joshua Rowan</title><meta name="description" content="Environmental remote sensing projects including alpine vegetation change and satellite-based water mapping."><link rel="stylesheet" href="assets/styles.css"></head>
+<body><a class="skip" href="#main">Skip to content</a>
+<header class="site-header"><div class="wrap"><a class="identity" href="index.html">Joshua Rowan</a><p class="tagline">GIS &amp; Remote Sensing Portfolio</p><nav class="site-nav" aria-label="Main navigation"><a href="index.html">About</a><a href="gis-work.html">GIS Work</a><a href="remote-sensing.html" aria-current="page">Remote Sensing</a><a href="research-reports.html">Research &amp; Reports</a></nav></div></header>
+<main id="main"><div class="wrap">
+  <section class="intro"><p class="eyebrow">Earth Observation &amp; Environmental Change</p><h1>Remote sensing</h1><p class="lede">Using aerial photography, multispectral imagery, and field observations to study environmental patterns.</p></section>
+  <article class="project" id="mont-jacques-cartier"><div class="prose"><p class="eyebrow">01 · Academic project · Québec</p><h2>Vegetation change at Mont Jacques-Cartier</h2><p class="meta">ArcGIS Pro · Historical aerial photography · Landsat · Field observations</p>
+    <h3>Question</h3><p>How can historical and recent imagery help characterize vegetation patterns and change in the alpine environment of Mont Jacques-Cartier?</p>
+    <h3>Data &amp; approach</h3><p>The project brings together historical aerial photographs, recent imagery, Landsat-derived NDVI, and field observations. Historical imagery was georeferenced before vegetation mapping and comparison.</p><p>The classification distinguishes dense vegetation, sparse woody vegetation or krummholz, and open alpine surfaces. NDVI and field measurements provide additional information for interpreting these patterns.</p>
+    <h3>Skills demonstrated</h3><ul><li>Georeferencing imagery from different time periods.</li><li>Preparing training samples and classifying vegetation.</li><li>Calculating and summarizing vegetation indices.</li><li>Connecting field observations with remotely sensed patterns.</li></ul>
+    <h3>Interpreting change</h3><p>Differences in image resolution, acquisition date, alignment, and class definitions affect comparisons. These factors need to be considered alongside any measured changes.</p>
+    <!-- EDIT: Add your final map, verified findings, and report or StoryMap link here.
+    Do not add accuracy figures or numerical change estimates until checked against your final analysis. -->
+  </div></article>
+  <article class="project" id="water-mapping"><div class="prose"><p class="eyebrow">02 · Academic project · Python</p><h2>Water mapping with satellite imagery</h2><p class="meta">Multispectral imagery · Spectral indices · Machine learning</p>
+    <h3>Question</h3><p>How well do spectral indices and machine learning methods separate water from other surfaces in satellite imagery?</p>
+    <h3>Data &amp; approach</h3><p>This project uses labelled multispectral image patches to compare water-mapping methods. The workflow includes a spectral-index baseline, machine learning models, and evaluation of predicted water masks against reference masks.</p>
+    <h3>Skills demonstrated</h3><ul><li>Preparing image features and training data in Python.</li><li>Comparing baseline and machine learning methods.</li><li>Evaluating predictions with intersection over union and Dice scores.</li><li>Examining difficult scenes to understand model limitations.</li></ul>
+    <h3>Interpreting performance</h3><p>Cloud shadows, sediment, narrow waterways, and mixed shoreline pixels can complicate water mapping. Scene-level evaluation helps reveal variation that an overall average can hide.</p>
+    <!-- EDIT: Add a real input/reference/prediction comparison, verified validation results,
+    and a link to the cleaned notebook after reviewing its data and dependencies. -->
+  </div></article>
+</div></main><footer class="site-footer"><div class="wrap footer-inner"><span>Joshua Rowan · Geography &amp; Geospatial Analysis</span><a href="research-reports.html">Research &amp; documentation</a></div></footer></body></html>
