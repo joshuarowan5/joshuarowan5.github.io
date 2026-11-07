@@ -1,0 +1,1 @@
+Add your actual exported map images and field photographs here. Use short filenames without spaces, such as vegetation-comparison.png. No example maps or invented project results are included in this starter.

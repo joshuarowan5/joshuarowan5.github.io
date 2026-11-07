@@ -1,0 +1,1 @@
+Add the reports and CV you want to share publicly here. Use filenames such as mont-jacques-cartier-report.pdf or cv.pdf, then add matching links in the HTML pages. Only files you add and link will appear as downloads.
